@@ -28,7 +28,7 @@ def click_droit(event):
     can1.create_rectangle(x, y, x+c, y+c, fill='white')
     dico_case[x,y]=0
 
-def change_vit(event): #fonction pour changer la vitesse
+def change_vit(event): #fonction pour changer la vitesse de cellule
     global vitesse
     vitesse = int(eval(entree.get()))
     print(vitesse)
