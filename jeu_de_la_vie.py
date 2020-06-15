@@ -4,7 +4,7 @@ def damier(): #fonction dessinant le tableau
     ligne_vert()
     ligne_hor()
         
-def ligne_vert():
+def ligne_vert():#fonction dessinant la ligne vert
     c_x = 0
     while c_x != width:
         can1.create_line(c_x,0,c_x,height,width=1,fill='black')
